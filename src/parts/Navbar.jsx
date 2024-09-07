@@ -1,8 +1,8 @@
 export default function Navbar() {
   return (
-    <div className="w-full px-4 py-2 flex h-100 items-center justify-between bg-gray-100">
+    <div className="w-full px-4 py-2 flex h-[60px] items-center justify-between bg-gray-100">
       
-      <div className="w-60 ml-7">
+      <div className="mr-auto ml-7">
         <a href="/" className="ml-auto hover:opacity-60  ">
           <img src="/public/nizlogo.svg" alt="Logo" className="h-12 w-12 rounded-md" />
         </a>
