@@ -16,9 +16,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="flex justify-center mt-10">
-        <Contactbar />
-      </div>
+
     </div>
 
   );

@@ -1,13 +1,10 @@
 export default function Contactbar(){
 return(
-  <div className=" flex flex-col items-center justify-center ">
+  <div className=" flex flex-col px-20 items-center justify-center ">
     
     <hr class="w-full my-5"></hr>
     
-    
-    
-
-    <div className="w-full px-4 py-2 flex h-20 items-center justify-between">
+    <div className="w-full px-20 py-2 flex h-20 items-center justify-between ">
       <div className="w-60 ml-7">
           <a className="ml-auto font-bold text-xl  ">
             Connect with me!
@@ -49,7 +46,7 @@ return(
 
         </div>
 
-        <p class="text-xs">© 2024 Mohammed Nizar Meskine</p>
+        <p class="text-xs mb-5">© 2024 Mohammed Nizar Meskine</p>
 
 
 
