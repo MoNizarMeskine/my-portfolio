@@ -18,7 +18,7 @@ return(
           target="_blank"
           rel="nooopener noreferrer"
           >
-            <img src="/public/linkedin.svg" alt="logo" className="h-12 w-12 rounded-md"/>
+            <img src="/linkedin.svg" alt="logo" className="h-12 w-12 rounded-md"/>
           </a>
 
 
@@ -28,7 +28,7 @@ return(
             target="_blank"
             rel="noopener noreferrer"
           >
-          <img src="/public/resume.svg" alt="logo" className="h-12 w-12 rounded-md"/>
+          <img src="/resume.svg" alt="logo" className="h-12 w-12 rounded-md"/>
 
           </a>
           
@@ -38,7 +38,7 @@ return(
           target="_blank"
           rel="noopener noreferrer"
           >
-          <img src="/public/github.svg" alt="logo" className="h-12 w-12 rounded-md"/>
+          <img src="/github.svg" alt="logo" className="h-12 w-12 rounded-md"/>
   
           </a>
 

@@ -7,7 +7,7 @@ export default function Navbar() {
       
       <div className="mr-auto ml-7">
         <a href="/" className="ml-auto hover:opacity-60  ">
-          <img src="/public/nizlogo.svg" alt="Logo" className="h-12 w-12 rounded-md" />
+          <img src="/nizlogo.svg" alt="Logo" className="h-12 w-12 rounded-md" />
         </a>
       </div>
       
