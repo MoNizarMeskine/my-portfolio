@@ -10,63 +10,63 @@ export default function About() {
         <div className="flex flex-wrap gap-10 max-w-[800px] sm:w-screen px-2">
           {/* Skills Icons */}
           <div className="html-img flex items-center justify-center rounded-full hover:bg-orange-400 outline md:w-20 md:h-20 sm:w-16 sm:h-16 w-10 h-10 hover:md:w-24 hover:md:h-24 hover:sm:w-20 hover:sm:h-20 hover:w-14 hover:h-14 transition-all duration-300">
-            <img src="/public/html.svg" alt="HTML" className="w-1/2 h-1/2 object-contain" />
+            <img src="/html.svg" alt="HTML" className="w-1/2 h-1/2 object-contain" />
           </div>
 
           <div className="css-img flex items-center justify-center rounded-full hover:bg-blue-400 outline md:w-20 md:h-20 sm:w-16 sm:h-16 w-10 h-10 hover:md:w-24 hover:md:h-24 hover:sm:w-20 hover:sm:h-20 hover:w-14 hover:h-14 transition-all duration-300">
-            <img src="/public/css.svg" alt="CSS" className="w-1/2 h-1/2 object-contain" />
+            <img src="/css.svg" alt="CSS" className="w-1/2 h-1/2 object-contain" />
           </div>
 
           <div className="git-img flex items-center justify-center rounded-full hover:bg-orange-500 outline md:w-20 md:h-20 sm:w-16 sm:h-16 w-10 h-10 hover:md:w-24 hover:md:h-24 hover:sm:w-20 hover:sm:h-20 hover:w-14 hover:h-14 transition-all duration-300">
-            <img src="/public/git.svg" alt="Git" className="w-1/2 h-1/2 object-contain" />
+            <img src="/git.svg" alt="Git" className="w-1/2 h-1/2 object-contain" />
           </div>
 
           <div className="nodejs-img flex items-center justify-center rounded-full hover:bg-yellow-400 outline md:w-20 md:h-20 sm:w-16 sm:h-16 w-10 h-10 hover:md:w-24 hover:md:h-24 hover:sm:w-20 hover:sm:h-20 hover:w-14 hover:h-14 transition-all duration-300">
-            <img src="/public/nodejs.svg" alt="NodeJS" className="w-1/2 h-1/2 object-contain" />
+            <img src="/nodejs.svg" alt="NodeJS" className="w-1/2 h-1/2 object-contain" />
           </div>
 
           <div className="react-img flex items-center justify-center rounded-full hover:bg-blue-200 outline md:w-20 md:h-20 sm:w-16 sm:h-16 w-10 h-10 hover:md:w-24 hover:md:h-24 hover:sm:w-20 hover:sm:h-20 hover:w-14 hover:h-14 transition-all duration-300">
-            <img src="/public/react.svg" alt="React" className="w-1/2 h-1/2 object-contain" />
+            <img src="/react.svg" alt="React" className="w-1/2 h-1/2 object-contain" />
           </div>
 
           <div className="cplus-img flex items-center justify-center rounded-full hover:bg-blue-100 outline md:w-20 md:h-20 sm:w-16 sm:h-16 w-10 h-10 hover:md:w-24 hover:md:h-24 hover:sm:w-20 hover:sm:h-20 hover:w-14 hover:h-14 transition-all duration-300">
-            <img src="/public/cplus.svg" alt="C++" className="w-1/2 h-1/2 object-contain" />
+            <img src="/cplus.svg" alt="C++" className="w-1/2 h-1/2 object-contain" />
           </div>
 
           <div className="vite-img flex items-center justify-center rounded-full hover:bg-blue-400 outline md:w-20 md:h-20 sm:w-16 sm:h-16 w-10 h-10 hover:md:w-24 hover:md:h-24 hover:sm:w-20 hover:sm:h-20 hover:w-14 hover:h-14 transition-all duration-300">
-            <img src="/public/vite.svg" alt="Vite" className="w-1/2 h-1/2 object-contain" />
+            <img src="/vite.svg" alt="Vite" className="w-1/2 h-1/2 object-contain" />
           </div>
 
           <div className="java-img flex items-center justify-center rounded-full hover:bg-red-200 outline md:w-20 md:h-20 sm:w-16 sm:h-16 w-10 h-10 hover:md:w-24 hover:md:h-24 hover:sm:w-20 hover:sm:h-20 hover:w-14 hover:h-14 transition-all duration-300">
-            <img src="/public/java.svg" alt="Java" className="w-1/2 h-1/2 object-contain" />
+            <img src="/java.svg" alt="Java" className="w-1/2 h-1/2 object-contain" />
           </div>
 
           <div className="javascript-img flex items-center justify-center rounded-full hover:bg-yellow-400 outline md:w-20 md:h-20 sm:w-16 sm:h-16 w-10 h-10 hover:md:w-24 hover:md:h-24 hover:sm:w-20 hover:sm:h-20 hover:w-14 hover:h-14 transition-all duration-300">
-            <img src="/public/javascript.svg" alt="JavaScript" className="w-1/2 h-1/2 object-contain" />
+            <img src="/javascript.svg" alt="JavaScript" className="w-1/2 h-1/2 object-contain" />
           </div>
 
           <div className="c-img flex items-center justify-center rounded-full hover:bg-blue-100 outline md:w-20 md:h-20 sm:w-16 sm:h-16 w-10 h-10 hover:md:w-24 hover:md:h-24 hover:sm:w-20 hover:sm:h-20 hover:w-14 hover:h-14 transition-all duration-300">
-            <img src="/public/c.svg" alt="C" className="w-1/2 h-1/2 object-contain" />
+            <img src="/c.svg" alt="C" className="w-1/2 h-1/2 object-contain" />
           </div>
 
           <div className="tailwindcss-img flex items-center justify-center rounded-full hover:bg-blue-50 outline md:w-20 md:h-20 sm:w-16 sm:h-16 w-10 h-10 hover:md:w-24 hover:md:h-24 hover:sm:w-20 hover:sm:h-20 hover:w-14 hover:h-14 transition-all duration-300">
-            <img src="/public/tailwindcss.svg" alt="TailwindCSS" className="w-1/2 h-1/2 object-contain" />
+            <img src="/tailwindcss.svg" alt="TailwindCSS" className="w-1/2 h-1/2 object-contain" />
           </div>
 
           <div className="chatgpt-img flex items-center justify-center rounded-full hover:bg-emerald-500 outline md:w-20 md:h-20 sm:w-16 sm:h-16 w-10 h-10 hover:md:w-24 hover:md:h-24 hover:sm:w-20 hover:sm:h-20 hover:w-14 hover:h-14 transition-all duration-300">
-            <img src="/public/chatgpt.svg" alt="ChatGPT" className="w-1/2 h-1/2 object-contain" />
+            <img src="/chatgpt.svg" alt="ChatGPT" className="w-1/2 h-1/2 object-contain" />
           </div>
 
           <div className="nextjs-img flex items-center justify-center rounded-full hover:bg-blue-200 outline md:w-20 md:h-20 sm:w-16 sm:h-16 w-10 h-10 hover:md:w-24 hover:md:h-24 hover:sm:w-20 hover:sm:h-20 hover:w-14 hover:h-14 transition-all duration-300">
-            <img src="/public/nextjs.svg" alt="NextJS" className="w-1/2 h-1/2 object-contain" />
+            <img src="/nextjs.svg" alt="NextJS" className="w-1/2 h-1/2 object-contain" />
           </div>
 
           <div className="github-img flex items-center justify-center rounded-full hover:bg-gray-200 outline md:w-20 md:h-20 sm:w-16 sm:h-16 w-10 h-10 hover:md:w-24 hover:md:h-24 hover:sm:w-20 hover:sm:h-20 hover:w-14 hover:h-14 transition-all duration-300">
-            <img src="/public/github.svg" alt="GitHub" className="w-1/2 h-1/2 object-contain" />
+            <img src="/github.svg" alt="GitHub" className="w-1/2 h-1/2 object-contain" />
           </div>
 
           <div className="python-img flex items-center justify-center rounded-full hover:bg-yellow-200 outline md:w-20 md:h-20 sm:w-16 sm:h-16 w-10 h-10 hover:md:w-24 hover:md:h-24 hover:sm:w-20 hover:sm:h-20 hover:w-14 hover:h-14 transition-all duration-300">
-            <img src="/public/python.svg" alt="Python" className="w-1/2 h-1/2 object-contain" />
+            <img src="/python.svg" alt="Python" className="w-1/2 h-1/2 object-contain" />
           </div>
         </div>
       </div>
