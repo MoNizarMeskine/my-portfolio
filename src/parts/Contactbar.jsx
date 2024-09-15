@@ -4,14 +4,14 @@ return(
     
     <hr class="w-full my-5"></hr>
     
-    <div className="w-full px-20 py-2 flex h-20 items-center justify-between ">
-      <div className="w-60 ml-7">
+    <div className="md:w-full px-10 py-2 flex h-20 items-center w-screen justify-between gap-5 ">
+      <div className="mr-auto ml-7 mr-auto ml-7">
           <a className="ml-auto font-bold text-xl  ">
             Connect with me!
           </a>
         </div>
         
-        <div className="flex gap-7 ml-auto mr-7 ">
+        <div className="flex  mr-7 ">
           <a 
           href="https://www.linkedin.com/in/nizarm/" 
           className="hover:opacity-60 font-bold text-lg"
@@ -42,16 +42,15 @@ return(
   
           </a>
 
-        </div>
+       </div>
 
-        </div>
-
-        <p class="text-xs mb-5">© 2024 Mohammed Nizar Meskine</p>
-
+    </div>
+    <p class="text-xs mb-5">© 2024 Mohammed Nizar Meskine</p>
 
 
 
-      </div>
+
+  </div>
 
 );
 }

@@ -5,10 +5,10 @@ export default function About() {
     <div className="flex flex-col gap-10 justify-center items-center mx-7 mb-5">
       <h1 className="text-3xl text-center font-bold">About me!</h1>
 
-      <div className="md:mt-5 mb-10">
+      <div className="w-full md:w-auto md:mt-5 mb-5">
         <h2 className="text-2xl font-bold mb-7">My Skills</h2>
-        <div className="flex flex-wrap gap-10 max-w-[800px] px-2">
-          
+        <div className="flex flex-wrap gap-10 max-w-[800px] sm:w-screen px-2">
+          {/* Skills Icons */}
           <div className="html-img flex items-center justify-center rounded-full hover:bg-orange-400 outline md:w-20 md:h-20 sm:w-16 sm:h-16 w-10 h-10 hover:md:w-24 hover:md:h-24 hover:sm:w-20 hover:sm:h-20 hover:w-14 hover:h-14 transition-all duration-300">
             <img src="/public/html.svg" alt="HTML" className="w-1/2 h-1/2 object-contain" />
           </div>
@@ -70,35 +70,36 @@ export default function About() {
           </div>
         </div>
       </div>
+
+      {/* Work Experience Section */}
       <div className="flex flex-col gap-4 mt-5 w-full max-w-[800px]">
-        <div class="text-2xl font-bold">Work Experience</div>
-          <div class=" flex justify-start">
+        <div className="text-2xl font-bold">Work Experience</div>
+        <div className="flex justify-start">
           <div className="w-2/3 shadow-md shadow-custom-white rounded-lg px-4 pt-2 hover:scale-110 transition duration-300 ease">
-              <span className="font-semibold text-md sm:text-lg">German Performance Auto, </span>
-              <span className="text-s">Software Engineering Intern</span>
-              <ul className="ml-4 list-disc mt-3">
-                <li className="text-xs sm:text-sm font-light mb-2">Used Vite, JSX, and Tailwind CSS to develop a responsive website, anticipated to increase user engagement by approximately 40% based
-                on projected increases in website traffic and user interaction.</li>
-                <li className="text-xs sm:text-sm font-light mb-2">Integrated Google APIs with Vite to build a full-stack website displaying Google Reviews, enhancing user engagement, and significantly
-                reducing latency.</li>
-                <li className="text-xs sm:text-sm font-light mb-2">Optimized the layout of the webpage and worked on resizing for all screen sizes, ensuring a consistent and user-friendly experience across
-                devices.</li>
-                <li className="text-xs sm:text-sm font-light mb-2">Utilized Calendly for appointment scheduling, improving customer engagement in sales, rentals, and tint services.</li>
-              </ul>
-            </div>
+            <span className="font-semibold text-md sm:text-lg">German Performance Auto, </span>
+            <span className="text-s">Software Engineering Intern</span>
+            <ul className="ml-4 list-disc mt-3">
+              <li className="text-xs sm:text-sm font-light mb-2">
+                Used Vite, JSX, and Tailwind CSS to develop a responsive website, anticipated to increase user engagement by approximately 40%.
+              </li>
+              <li className="text-xs sm:text-sm font-light mb-2">
+                Integrated Google APIs with Vite to build a full-stack website displaying Google Reviews, enhancing user engagement.
+              </li>
+              <li className="text-xs sm:text-sm font-light mb-2">
+                Optimized the layout of the webpage, ensuring a consistent and user-friendly experience across devices.
+              </li>
+              <li className="text-xs sm:text-sm font-light mb-2">
+                Utilized Calendly for appointment scheduling, improving customer engagement in sales, rentals, and services.
+              </li>
+            </ul>
           </div>
-
-
+        </div>
       </div>
 
-
-
-
-
-
+      {/* Coursework Section */}
       <div className="flex flex-col gap-4 mt-5 w-full max-w-[800px]">
         <div className="mb-4 gap-4">
-          <span className="text-2xl font-semibold">Coursework </span>
+          <span className="text-2xl font-semibold">Coursework</span>
           <div className="text-sm">
             <div>
               University of Georgia, <span className="indexed">School of Computing</span>
@@ -109,8 +110,9 @@ export default function About() {
           </div>
         </div>
 
+        {/* Course Details */}
         <div className="grid grid-cols-2 grid-rows-4 gap-4">
-          <div className="flex">
+          <div className="flex mb-9">
             <div className="w-full shadow-md shadow-custom-white rounded-lg px-4 pt-2 hover:scale-110 transition duration-300 ease">
               <span className="font-semibold text-md sm:text-lg">Data Structures</span>
               <ul className="ml-4 list-disc">
@@ -121,10 +123,12 @@ export default function About() {
               </ul>
             </div>
           </div>
+          
+          {/* Empty flex boxes can be removed if not necessary */}
           <div className="flex"></div>
           <div className="flex"></div>
 
-          <div className="flex">
+          <div className="flex mb-12">
             <div className="w-full shadow-md shadow-custom-white rounded-lg px-4 pt-2 hover:scale-110 transition duration-300 ease">
               <span className="font-semibold text-md sm:text-lg">Software Development</span>
               <ul className="ml-4 list-disc">
@@ -135,7 +139,8 @@ export default function About() {
               </ul>
             </div>
           </div>
-          <div className="flex">
+
+          <div className="flex mb-9">
             <div className="w-full shadow-md shadow-custom-white rounded-lg px-4 pt-2 hover:scale-110 transition duration-300 ease">
               <span className="font-semibold text-md sm:text-lg">Systems Programming</span>
               <ul className="ml-4 list-disc">
@@ -146,10 +151,11 @@ export default function About() {
               </ul>
             </div>
           </div>
+          
           <div className="flex"></div>
           <div className="flex"></div>
 
-          <div className="flex">
+          <div className="flex mb-9">
             <div className="w-full shadow-md shadow-custom-white rounded-lg px-4 pt-2 hover:scale-110 transition duration-300 ease">
               <span className="font-semibold text-md sm:text-lg">Introduction of Theory of Computing</span>
               <ul className="ml-4 list-disc">
@@ -172,8 +178,6 @@ export default function About() {
               </ul>
             </div>
           </div>
-
-
         </div>
       </div>
     </div>
