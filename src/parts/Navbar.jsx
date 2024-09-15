@@ -12,9 +12,10 @@ export default function Navbar() {
       </div>
       
       <div className="flex gap-7 ml-auto mr-7 ">
-        <a href="/about/" className="hover:opacity-60 font-bold text-lg">
-          About
-        </a>
+       
+        <NavLink to="/about" className="hover:opacity-60 font-bold text-lg">About</NavLink>
+
+
         <a
           href="https://drive.google.com/file/d/1CG_1_6czo1jvsKKgYUlrKkAtKXenQZ8U/view"
           className="hover:opacity-60 font-bold text-lg"
