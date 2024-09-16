@@ -23,7 +23,7 @@ return(
 
 
           <a
-            href="https://drive.google.com/file/d/1CG_1_6czo1jvsKKgYUlrKkAtKXenQZ8U/view"
+            href="https://drive.google.com/file/d/1CZBMwzKYgykWi60ZcUd-e_3XRsXCa_gN/view?usp=sharing"
             className="hover:opacity-60 font-bold text-lg"
             target="_blank"
             rel="noopener noreferrer"
