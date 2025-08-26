@@ -1,13 +1,74 @@
-import React from "react";
+import { useEffect } from "react";
 
 export default function About() {
-  return (
-    <div className="flex flex-col gap-10 justify-center items-center mx-7 mb-5">
-      <h1 className="text-3xl text-center font-bold">About me!</h1>
 
-      <div className="w-full md:w-auto md:mt-5 mb-5">
+useEffect(() => {
+  const circle = document.getElementById("white-circle");
+  const hero = document.getElementById("hero-section");
+
+  const handleScroll = () => {
+    if (!circle || !hero) return;
+
+    const scrollY = window.scrollY;
+    const heroHeight = hero.offsetHeight;
+
+    if (scrollY <= heroHeight) {
+      // Let the circle grow while inside the hero section
+      const maxScale = 1000; // set max growth
+      const scale = 1 + scrollY ; // adjust speed here
+      circle.style.transform = `scale(${Math.min(scale, maxScale)})`;
+    } else {
+      // Lock growth at max once user scrolls past
+      circle.style.transform = `scale(100)`;
+    }
+  };
+
+  window.addEventListener("scroll", handleScroll);
+  return () => window.removeEventListener("scroll", handleScroll);
+}, []);
+
+  return (
+    <div>
+  {/* Hero Section */}
+{/* Hero Section */}
+<div id="hero-section" className="w-screen h-screen relative flex flex-col justify-start px-6 pt-16 overflow-hidden">
+    <div className="w-full max-w-[1200px] mx-auto mb-20 z-0">
+    <h1
+      className="sm:text-3xl md:text-4xl xl:text-[3.2rem] 2xl:text-[3.5rem] font-bold text-left"
+      style={{ color: '#EF5350' }}
+    >
+      If this world were mineeeee
+    </h1>
+  </div>
+
+  <div className="flex justify-center mt-20 z-0 mb-15">
+    <img
+      src="/relax.png"
+      alt="Relax"
+      className="w-[550px] h-auto"
+    />
+  </div>
+
+  {/* Spacer */}
+  <div className="flex-grow" />
+
+  {/* White Circle animation element (now inside the hero section only) */}
+  <div className="absolute inset-0 flex items-start justify-center pt-[37vh] pointer-events-none z-10">
+    <div
+      id="white-circle"
+      className="bg-white rounded-full w-[20px] h-[20px] transition-transform duration-300 ease-out"
+      style={{ transform: 'scale(1)' }}
+    ></div>
+  </div>
+ <div className="flex-grow" />
+</div>
+
+
+     
+
+      <div className="w-full md:w-auto  mb-5 bg-white">
         <h2 className="text-2xl font-bold mb-7">My Skills</h2>
-        <div className="flex flex-wrap gap-10 max-w-[800px] sm:w-screen px-2">
+        <div className="flex flex-wrap gap-10 max-w-[800px] sm:w-screen px-2 ">
           {/* Skills Icons */}
           <div className="html-img flex items-center justify-center rounded-full hover:bg-orange-400 outline md:w-20 md:h-20 sm:w-16 sm:h-16 w-10 h-10 hover:md:w-24 hover:md:h-24 hover:sm:w-20 hover:sm:h-20 hover:w-14 hover:h-14 transition-all duration-300">
             <img src="/html.svg" alt="HTML" className="w-1/2 h-1/2 object-contain" />
@@ -180,6 +241,9 @@ export default function About() {
           </div>
         </div>
       </div>
+
+
+
     </div>
   );
 }

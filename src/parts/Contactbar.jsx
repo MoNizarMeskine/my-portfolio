@@ -1,10 +1,9 @@
 export default function Contactbar(){
 return(
-  <div className=" flex flex-col px-20 items-center justify-center ">
+  <div className=" flex flex-col px-20 items-center justify-center text-white ">
     
-    <hr class="w-full my-5"></hr>
-    
-    <div className="md:w-full px-10 py-2 flex h-20 items-center w-screen justify-between gap-5 ">
+<hr className="w-[1850px] border-t border-gray-500 my-8" />    
+    <div className="container mx-auto flex justify-between items-center ">
       <div className="mr-auto ml-7 mr-auto ml-7">
           <a className="ml-auto font-bold text-xl  ">
             Connect with me!
@@ -23,7 +22,7 @@ return(
 
 
           <a
-            href="https://drive.google.com/file/d/1CZBMwzKYgykWi60ZcUd-e_3XRsXCa_gN/view?usp=sharing"
+            href="https://drive.google.com/file/d/1N0w0AQXB1IxEJIwFqSqS1lqT8pOUh9HQ/view?usp=sharing"
             className="hover:opacity-60 font-bold text-lg"
             target="_blank"
             rel="noopener noreferrer"

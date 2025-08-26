@@ -70,3 +70,16 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 } */
+
+@keyframes runAcross {
+  0% {
+    left: -200px;
+  }
+  100% {
+    left: 100vw;
+  }
+}
+
+.animate-runAcross {
+  animation: runAcross 3s linear forwards;
+}

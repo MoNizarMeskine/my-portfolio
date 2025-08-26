@@ -2,12 +2,11 @@ import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import Navbar from "./parts/Navbar";
 import Contactbar from "./parts/Contactbar";
 import Home from "./pages/Home";
-import About from "./pages/About"
-
+import About from "./pages/About";
 
 const App = () => {
   return (
-    <main>
+    <main className="min-h-screen" style={{ backgroundColor: "#1C2637" }}>
       <Router>
         <Navbar />
         <Routes>
