@@ -436,7 +436,7 @@ const handleCloseSoccerSection = () => {
 
               {/* 👉 Right Flex Container */}
               <div className="flex-1 flex items-center justify-center">
-                <div className="w-fit max-w-3xl h-[400px] bg-[#18181b] rounded-lg shadow-inner border border-gray-700 py-2 px-6 font-mono text-green-400 text-base flex flex-col">
+                <div className="w-full max-w-3xl h-[400px] bg-[#18181b] rounded-lg shadow-inner border border-gray-700 py-2 px-6 font-mono text-green-400 text-base flex flex-col">
                   <div>
                     <div className="flex items-center mb-4">
                       <span className="w-3 h-3 bg-red-500 rounded-full mr-2"></span>
