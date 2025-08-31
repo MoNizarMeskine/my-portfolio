@@ -16,6 +16,11 @@ export default {
         'slide-run': 'slideRun 1.0s linear forwards',
       },
     },
+    screens: {
+      'xl': '1280px',
+      '2xl': '1536px',
+      'desktop': '1630px',
+    },
   },
   plugins: [],
 }

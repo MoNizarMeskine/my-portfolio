@@ -397,7 +397,7 @@ const handleCloseSoccerSection = () => {
         {/* Layout Container */}
         <div className="flex flex-col max-w-[3000px] w-fit mb-20">
           {/* Simulated Computer Window */}
-<div className="bg-gray-100 border-[3px] border-gray-400 rounded-lg w-full h-auto shadow-[0_0_20px_rgba(0,0,0,0.1)] flex flex-col justify-between p-4 relative overflow-hidden lg:w-[1500px] lg:h-[700px]">
+<div className="bg-gray-100 border-[3px] border-gray-400 rounded-lg w-full h-auto shadow-[0_0_20px_rgba(0,0,0,0.1)] flex flex-col justify-between p-4 relative overflow-hidden desktop:w-[1500px] desktop:h-[700px]">
             {/* Top Colored Dots */}
             <div className="flex items-center gap-2 mb-4">
               <div className="w-3 h-3 bg-red-500 rounded-full" />
